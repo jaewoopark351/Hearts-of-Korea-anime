@@ -29,4 +29,21 @@ Hearts of Iron IV의 **하츠 오브 코리아**에 애니메이션풍 초상과
 - **Hearts of Korea 하츠 오브 코리아 Anime** — 이 저장소의 [descriptor](descriptor.mod)에 기록된 Workshop ID는 `2905927886`입니다.
 - **Anime History** — Workshop `1862018480`. 시각 스타일과 모드 구조를 살펴본 참고 프로젝트입니다. 현재 서브모드의 개별 그림·음성에 대한 원출처와 재배포 조건은 별도 확인이 필요합니다.
 
+2026-11-11에 교체한 뉴스 삽화는 《블루 아카이브》 캐릭터와 본체의 사건 설명을 바탕으로 OpenAI ImageGen에서 생성했습니다. 그림은 가로 구도에 맞춰 잘라낸 뒤 397×153 DDS로 변환했습니다.
+
+| 뉴스 | 그림과 연결 | 장면 |
+| --- | --- | --- |
+| 도쿄 함락 (`newsk.5`) | [newsk_event_010.dds](gfx/event_pictures/newsk_event_010.dds) · `GFX_newsk_event_010` | 고쿄 돌다리 앞에서 가면을 벗고 태극기를 든 와카모 |
+| 신징 함락 (`newsk.18`) | [newsk_event_011.dds](gfx/event_pictures/newsk_event_011.dds) · `GFX_newsk_event_011` | 중국풍 건물 위로 보이는 기존 삽화의 헬리콥터와 흰 로봇 |
+| 난징 함락 (`newsk.23`) | [newsk_event_002.dds](gfx/event_pictures/newsk_event_002.dds) · `GFX_newsk_event_002` | 새벽의 중산문 앞 히나와 아코 |
+| 베이핑 함락 (`newsk.22`) | [newsk_event_018.dds](gfx/event_pictures/newsk_event_018.dds) · `GFX_newsk_event_018` | 천안문 앞 유우카와 노아, 여성 의장대 |
+
+난징 삽화의 아코는 2026-11-11에 [《블루 아카이브 The Animation》 공식 아코 설정화](https://sh-anime.shochiku.co.jp/bluearchive-anime/character/amau-ako/)의 얼굴, 머리 장식과 헤일로를 참고해 ImageGen으로 다시 그렸습니다. 설정화는 제작 참고 자료로 사용했습니다.
+
+도쿄는 [와카모 공식 소개](https://x.com/Blue_ArchiveJP/status/1484752717839237121)와 [일본 궁내청 고쿄 안내](https://sankan.kunaicho.go.jp/english/guide/koukyo.html)를 참고했습니다. 후속 편집에서는 [NEONMAX의 와카모 피규어 사진](https://www.neonmax.net/wakamo)과 [행정안전부 태극기 도안](https://www.mois.go.kr/frt/sub/a06/b08/nationalIcon_2_2/screen.do)을 참고해 얼굴과 깃발을 그렸습니다.
+
+신징은 사용자가 첨부한 기존 서브모드 삽화를 바탕으로, ImageGen에서 중국풍 건물을 그려 배경 건물 영역에 적용했습니다. 기존 그림의 개별 원출처는 미확인입니다.
+
+삽화는 기존 경로를 사용합니다. 도쿄와 신징은 본체와 같은 비압축 32비트 DDS입니다. 네 삽화의 이벤트 연결과 DDS 형식을 확인했습니다. 게임 버전 `1.19.4.2.2da5`에서 신징의 표시를 확인했으며, 도쿄·베이핑·난징의 게임 내 표시는 미검증입니다.
+
 개발 작업 위치와 검증 범위는 [AGENTS.md](AGENTS.md)를 참고하세요.
