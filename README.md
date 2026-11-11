@@ -46,4 +46,34 @@ Hearts of Iron IV의 **하츠 오브 코리아**에 애니메이션풍 초상과
 
 삽화는 기존 경로를 사용합니다. 도쿄와 신징은 본체와 같은 비압축 32비트 DDS입니다. 네 삽화의 이벤트 연결과 DDS 형식을 확인했습니다. 게임 버전 `1.19.4.2.2da5`에서 신징의 표시를 확인했으며, 도쿄·베이핑·난징의 게임 내 표시는 미검증입니다.
 
+### 지도자 중점 아이콘
+
+2026-11-12에 기존 방패의 형태와 색을 참고해 중점 아이콘 네 장을 OpenAI ImageGen으로 다시 그렸습니다. 캐릭터의 머리, 복장, 장식은 《블루 아카이브》 일본 공식 소개 그림을 참고했습니다. 이전 아이콘의 개별 제작 출처는 미확인입니다.
+
+| 중점 | 캐릭터 참고 자료 | 아이콘 |
+| --- | --- | --- |
+| 여운형 주석 (`KOR_yeo_woon_hyung_as_the_leader`) | [노도카 공식 소개](https://x.com/Blue_ArchiveJP/status/1386530752360173571) | [focus_kor_korea_yeo_woon_hyung_as_the_leader.dds](gfx/interface/goals/focus_kor_korea_yeo_woon_hyung_as_the_leader.dds) |
+| 박헌영 주석 (`KOR_park_heon_young_as_the_leader`) | [토모에 공식 소개](https://x.com/Blue_ArchiveJP/status/1463704456760299520) | [focus_kor_korea_park_heon_young_as_the_leader.dds](gfx/interface/goals/focus_kor_korea_park_heon_young_as_the_leader.dds) |
+| 김구 대통령 (`KOR_president_kim_gu`) | [나기사 공식 소개](https://x.com/Blue_ArchiveJP/status/1627503590750433283) | [focus_kor_president_kim_gu.dds](gfx/interface/goals/focus_kor_president_kim_gu.dds) |
+| 이승만 재선 (`KOR_syngman_rhee_reelected`) | [미카 공식 소개](https://x.com/Blue_ArchiveJP/status/1398851690242088960) | [focus_kor_syngman_rhee_reelected.dds](gfx/interface/goals/focus_kor_syngman_rhee_reelected.dds) |
+
+후속 편집에서 노도카와 토모에의 모자를 벗기고 가려졌던 머리 부분을 다시 그렸습니다.
+토모에는 사용자가 첨부한 그림을 참고해 머리와 어깨의 비율, 고개 각도와 웃는 표정을 다시 그렸습니다. 첨부 그림의 개별 제작 출처는 미확인입니다.
+
+본체와 같은 100×88 비압축 32비트 DDS로 변환해 테두리의 반투명 픽셀을 보존했습니다. 각 중점의 기본 그림과 광택 마스크가 같은 DDS를 참조하는 것을 확인했고, 최종 파일을 원본 크기로 열어 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 대한제국 분기 중점 아이콘
+
+2026-11-12에 본체와 서브모드의 기존 문장을 참고해 세 장을 OpenAI ImageGen으로 다시 그렸습니다. 화해 아이콘은 왼쪽부터 린·나기사·노도카를 배치했습니다. 린의 복장과 얼굴은 [공식 소개](https://x.com/Blue_ArchiveJP/status/1356074850909999105)를 참고했고, 나기사와 노도카는 위에 기록한 공식 소개 그림을 참고했습니다. 계연수 두 장은 [유우카 공식 소개](https://x.com/Blue_ArchiveJP/status/1353175798992179200)와 [서브모드의 기존 계연수 초상](gfx/leaders/KOR/Portrait_KOR_Yeonsu_Gye.dds)을 참고했습니다. 기존 수녀 차림 그림의 개별 제작 출처는 미확인입니다.
+
+| 중점 | 아이콘 | 장면 |
+| --- | --- | --- |
+| 공화주의자들과의 화해 (`KOR_nomination_prime_minister`) | [focus_kor_nomination_prime_minister.dds](gfx/interface/goals/focus_kor_nomination_prime_minister.dds) | 파란 원형 문장 속 안창호(린), 김구(나기사), 여운형(노도카) |
+| 제국섭정 계연수 (`KOR_imperial_regent_gyeyeonsu`) | [focus_kor_imperial_regent_gyeyeonsu.dds](gfx/interface/goals/focus_kor_imperial_regent_gyeyeonsu.dds) | 월계관 속 수녀 차림 유우카 |
+| 계연수 축출 (`KOR_oppose_gyeyeonsu`) | [focus_kor_oppose_gyeyeonsu.dds](gfx/interface/goals/focus_kor_oppose_gyeyeonsu.dds) | 보라색 문장과 교차한 칼 장식 위로 보이는 수녀 차림 유우카 |
+
+축출 아이콘은 후속 편집에서 베일 바깥으로 나온 옆머리를 정리했습니다.
+
+세 장 모두 100×88 비압축 32비트 DDS이며, 본체의 기존 경로를 사용합니다. 기본 그림과 광택 마스크의 연결 및 실제 크기의 DDS 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
 개발 작업 위치와 검증 범위는 [AGENTS.md](AGENTS.md)를 참고하세요.
