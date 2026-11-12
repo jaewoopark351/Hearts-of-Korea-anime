@@ -12,6 +12,7 @@ Hearts of Iron IV의 **하츠 오브 코리아**에 애니메이션풍 초상과
 | 이벤트·뉴스 그림 | `gfx/event_pictures/` |
 | 중점·국민정신·결정 아이콘 | `gfx/interface/goals/`, `gfx/interface/ideas/`, `gfx/interface/decisions/` |
 | 한국군 유닛 음성 | `sound/kor/` |
+| 한국군 보병 3D 외형 | `gfx/models/units/`, `gfx/entities/` |
 
 ## 설치와 호환성
 
@@ -28,6 +29,26 @@ Hearts of Iron IV의 **하츠 오브 코리아**에 애니메이션풍 초상과
 - **하츠 오브 코리아 원작과 기여자** — 원작 Workshop `2898629778`. 현재 서브모드가 대조하는 본체는 계승판 `3793992662`입니다.
 - **Hearts of Korea 하츠 오브 코리아 Anime** — 이 저장소의 [descriptor](descriptor.mod)에 기록된 Workshop ID는 `2905927886`입니다.
 - **Anime History** — Workshop `1862018480`. 시각 스타일과 모드 구조를 살펴본 참고 프로젝트입니다. 현재 서브모드의 개별 그림·음성에 대한 원출처와 재배포 조건은 별도 확인이 필요합니다.
+
+### 다즐링 한국 보병 모델
+
+2026-11-13에 한국 보병 외형을 [TRY RE HQ ANIME MOD 1.0](https://steamcommunity.com/sharedfiles/filedetails/?id=1171917559)의 다즐링으로 교체했습니다. 캐릭터는 《걸즈 앤 판처》의 다즐링이며, HOI4 모델 포팅은 [Milek의 3d Anime infantry model](https://steamcommunity.com/sharedfiles/filedetails/?id=2393210146)에서 왔습니다. 이 서브모드의 재배포 허가는 미확인입니다.
+
+Workshop 설치본 `gfx/models/units`의 `ENG_infantry.mesh`와 메시가 참조하는 색상·노멀·광택 DDS 31개를 [다즐링 자산 폴더](gfx/models/units/darjeeling/)에 원본 바이트 그대로 복사했습니다. [모델 정의](gfx/entities/kor_infantry_trinity.gfx)에서 한국 보병의 소총·기관단총 메시가 이 파일을 사용합니다. 적용 대상은 `KOR_infantry_entity`, `KOR_infantry_2_entity`, `KOR_infantry_3_entity`입니다. 포병에 동반되는 보병도 첫 번째 엔티티를 사용합니다.
+
+본체 보병과 뼈 33개의 이름·순서·부모 관계 및 장비 부착 뼈가 일치합니다. Blender에서 기존 소총·기관단총 이동과 공격 클립을 확인했습니다. 게임 내 표시와 총기 부착 위치는 미검증입니다.
+
+### 이전 각청 시안
+
+2026-11-13에 [Anime Units-Chinese](https://steamcommunity.com/sharedfiles/filedetails/?id=2604675336)의 각청 모델을 시안으로 사용했습니다. 원본은 HoYoverse, HOI4 모델 포팅은 Milek238, Workshop 모드 제작자는 Bitter Tenderness입니다. OpenAI ImageGen으로 의상과 머리 텍스처를 다시 그렸고 메시에서 앞머리와 눈 주변을 조정했습니다. Blender에서 대기 자세와 소총 이동·사격을 확인했습니다. 다즐링으로 전환하면서 시안을 외부 작업 백업에 보관했습니다.
+
+### 본체 메시 기반 트리니티 시안
+
+2026-11-13에 본체 `065b555`의 `KOR_infantry.mesh`를 바탕으로 남색 주름치마와 양갈래 장발을 Blender에서 모델링했습니다. [Anime Units-Chinese](https://steamcommunity.com/sharedfiles/filedetails/?id=2604675336)의 각청을 외형 참고로 사용했습니다. `KOR_infantry_diffuse.dds`는 본체의 색상 텍스처를 OpenAI ImageGen으로 다시 그리고, 기존 256×256 비압축 BGRA32 형식과 알파를 보존해 변환했습니다.
+
+`KOR_infantry_trinity.mesh`는 본체의 뼈대와 충돌 형상을 사용했습니다. 이 시안의 메시와 텍스처는 다즐링 적용 후 저장소 밖 작업 백업으로 옮겼습니다. 기병·자전거·차량 탑승 모델은 본체의 기존 메시를 사용합니다.
+
+Blender에서 내보낸 메시를 다시 열고 원본 뼈 33개와 기존 대기·이동·돌격·소총 사격·앉아 쏘기·기관단총 사격 애니메이션의 대표 프레임을 확인했습니다. 실제 게임 표시는 미검증입니다.
 
 2026-11-11에 교체한 뉴스 삽화는 《블루 아카이브》 캐릭터와 본체의 사건 설명을 바탕으로 OpenAI ImageGen에서 생성했습니다. 그림은 가로 구도에 맞춰 잘라낸 뒤 397×153 DDS로 변환했습니다.
 
