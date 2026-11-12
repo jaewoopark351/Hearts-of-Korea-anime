@@ -155,4 +155,22 @@ Hearts of Iron IV의 **하츠 오브 코리아**에 애니메이션풍 초상과
 
 과학자 8장은 156×210, 김두봉은 65×67 비압축 BGRA32 DDS입니다. 과학자 초상은 기존 인물의 위치와 불투명 영역의 색을 유지하고 반투명 윤곽을 배경에 합성했습니다. 김두봉 소형의 종이와 그림자, 알파는 기존 서브모드 자산에서 보존했습니다. 같은 상대 경로의 본체 연결과 최종 DDS 형식을 확인했습니다. 과학자 초상은 원본 크기와 명단의 약 0.4배 표시 크기로 확인했습니다. 애니 초상의 게임 내 표시는 미검증입니다.
 
+### 한국 신규 모집 첩보원과 윤봉길 초상
+
+2026-11-12에 《블루 아카이브》 공식 캐릭터 자료를 참고해 OpenAI ImageGen으로 아홉 장을 그렸습니다. 신규 모집 첩보원 여덟 명은 본체 작업본의 검은 중절모·코트·정장과 불투명 회색 배경을 참고해 드라마 《도깨비》의 저승사자 복장을 입혔습니다. 윤봉길의 메구 초상에도 저승사자 복장과 검은 중절모를 적용했습니다. 고글을 빼고, 고개를 숙인 무표정에 메구 기준 오른쪽 눈을 앞머리로 가렸습니다. 포니테일은 모자 챙 아래 목덜미 쪽으로 내렸습니다. [《도깨비》 공식 인물 소개](https://tvn.cjenm.com/ko/dokebi/character/)
+
+| 대상 | 캐릭터 | 교체 파일 | 디자인 참고 |
+| --- | --- | --- | --- |
+| female_01 | 니키 안나 | [portrait_HOK_KOR_operative_female_01.dds](gfx/leaders/operatives/HOK_KOR/portrait_HOK_KOR_operative_female_01.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/2101507177118892342) |
+| female_02 | 이치노세 아스나 | [portrait_HOK_KOR_operative_female_02.dds](gfx/leaders/operatives/HOK_KOR/portrait_HOK_KOR_operative_female_02.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1881914740307558717) |
+| female_03 | 쿠다 이즈나 | [portrait_HOK_KOR_operative_female_03.dds](gfx/leaders/operatives/HOK_KOR/portrait_HOK_KOR_operative_female_03.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1362990372146700292) |
+| female_04 | 나카츠카사 키리노 | [portrait_HOK_KOR_operative_female_04.dds](gfx/leaders/operatives/HOK_KOR/portrait_HOK_KOR_operative_female_04.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1805118746912260126) |
+| male_01 | 카스미자와 미유 | [portrait_HOK_KOR_operative_male_01.dds](gfx/leaders/operatives/HOK_KOR/portrait_HOK_KOR_operative_male_01.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1510814671909298176) |
+| male_02 | 무로카사 아카네(안경 벗음) | [portrait_HOK_KOR_operative_male_02.dds](gfx/leaders/operatives/HOK_KOR/portrait_HOK_KOR_operative_male_02.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/2038089449905729923) |
+| male_03 | 시라스 아즈사 | [portrait_HOK_KOR_operative_male_03.dds](gfx/leaders/operatives/HOK_KOR/portrait_HOK_KOR_operative_male_03.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1395953346301763588) |
+| male_04 | 사유리 | [portrait_HOK_KOR_operative_male_04.dds](gfx/leaders/operatives/HOK_KOR/portrait_HOK_KOR_operative_male_04.dds) | [오디세이아 공식 소개 영상](https://www.youtube.com/watch?v=hTpD_SHfCGY) |
+| 윤봉길 (`KOR_bonggil_yoon`) | 시모쿠라 메구 | [portrait_KOR_operative_Bonggil_Yoon.dds](gfx/leaders/KOR/portrait_KOR_operative_Bonggil_Yoon.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1619168626946510848) |
+
+신규 모집 초상은 본체 `f1282d7` 기반 작업 트리의 한국 전용 남녀 슬롯과 스프라이트를 같은 상대 경로로 사용합니다. 모집 이름과 성별은 본체 슬롯을 따릅니다. 윤봉길은 고정 첩보원용 `GFX_portrait_bonggil_yoon`에 연결됩니다. 아홉 장 모두 156×210 불투명 BGRA32 DDS입니다. 파일 연결과 규격, 원본 및 모집 목록 크기 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
 개발 작업 위치와 검증 범위는 [AGENTS.md](AGENTS.md)를 참고하세요.
