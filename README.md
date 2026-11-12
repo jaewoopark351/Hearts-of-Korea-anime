@@ -76,4 +76,35 @@ Hearts of Iron IV의 **하츠 오브 코리아**에 애니메이션풍 초상과
 
 세 장 모두 100×88 비압축 32비트 DDS이며, 본체의 기존 경로를 사용합니다. 기본 그림과 광택 마스크의 연결 및 실제 크기의 DDS 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
 
+### 왕의 귀환 중점과 인물 초상
+
+2026-11-12에 《블루 아카이브》의 캐릭터 디자인을 참고해 OpenAI ImageGen으로 다시 그렸습니다. 왕의 귀환은 기존 중점의 왕관과 월계 장식을 참고했습니다. 기존 자산의 개별 제작 출처는 미확인입니다.
+
+| 대상 | 캐릭터 | 교체 파일 | 캐릭터 참고 자료 |
+| --- | --- | --- | --- |
+| 왕의 귀환 (`KOR_return_of_the_king`) | 하누마 마코토 | [중점](gfx/interface/goals/focus_kor_return_of_the_king.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1749280823805870118) |
+| 이강 (`KOR_Gang_Lee`) | 이구사 하루카(드레스) | [대형](gfx/leaders/KOR/Portrait_KOR_Gang_Lee.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/2058397620327129204) |
+| 유일한 (`KOR_Ilhan_Yu`) | 우시오 노아 | [소형](gfx/interface/ideas/idea_KOR_Ilhan_Yu.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1573507606278459392) |
+| 손원일 (`KOR_Wonil_Son`) | 미소노 미카(수영복) | [대형](gfx/leaders/KOR/Portrait_KOR_Wonil_Son.dds) · [소형](gfx/interface/ideas/idea_KOR_wonil_son.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1949318904779878694) |
+| 이규갑 (`KOR_Gyugap_Lee`) | 오디세이아 미나토 | [대형](gfx/leaders/KOR/Portrait_KOR_Gyugap_Lee.dds) · [소형](gfx/interface/ideas/idea_KOR_Gyugap_Lee.dds) | [게임 스프라이트](https://www.reddit.com/r/BlueArchive/comments/1vytq4a/jp_spoiler_all_new_character_sprites_in_the/) |
+| 권기옥 (`KOR_Giok_Gwon`) | 와일드헌트 에리 | [대형](gfx/leaders/KOR/Portrait_KOR_Giok_Gwon.dds) · [소형](gfx/interface/ideas/idea_KOR_Giok_Gwon.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1957291422039916600) |
+| 안창남 (`KOR_Changnam_Ahn`) | 와일드헌트 미요 | [소형](gfx/interface/ideas/idea_KOR_changnam_ahn.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1969597863455048085) |
+| 김정렬 (`KOR_Jeongryeol_Kim`) | 케이 | [소형](gfx/interface/ideas/idea_KOR_Jeongryeol_Kim.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/2015621284898775451) |
+| 최성학 (`KOR_Seonghak_Choi`) | 나나미 | [대형](gfx/leaders/KOR/Portrait_KOR_Seonghak_Choi.dds) · [소형](gfx/interface/ideas/idea_KOR_Seonghak_Choi.dds) | [게임 스크린샷](https://pomzero.hatenablog.com/entry/2026/09/01/205518) |
+| 최용덕 (`KOR_Yongdeuck_Choi`) | 와일드헌트 미리아(기숙사 감독) | [소형](gfx/interface/ideas/idea_KOR_Yongdeok_Choi.dds) | [게임 스크린샷](https://pomzero.hatenablog.com/entry/2025/08/23/200211) |
+
+본체 `cdc022e`에 연결된 기존 경로를 사용합니다. 중점은 100×88, 대형 초상은 156×210, 소형 초상은 65×67 비압축 32비트 DDS입니다. 소형은 기존 종이와 그림자, 투명 여백을 보존하고 인물 영역을 교체했습니다. 본체의 연결, DDS 헤더와 알파, 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 이은 초상
+
+2026-11-12에 [하누마 마코토 공식 소개](https://x.com/Blue_ArchiveJP/status/1749280823805870118)와 서브모드의 기존 초상을 참고해 OpenAI ImageGen으로 다시 그렸습니다. 후속 요청에 따라 황제와 장군의 대형 초상은 첨부된 금장 모자와 예복 차림의 마코토 그림으로 통일했습니다. 이전 초상의 개별 제작 출처는 미확인입니다.
+
+| 화면 | 스프라이트 | 파일 |
+| --- | --- | --- |
+| 황제 대형과 시민 영향력 창 | `GFX_Portrait_KOR_Eun_Lee` | [Portrait_KOR_Eun_Lee.dds](gfx/leaders/KOR/Portrait_KOR_Eun_Lee.dds) |
+| 장군 대형 | `GFX_Portrait_KOR_Eun_Lee_general` | [Portrait_KOR_Eun_Lee_general.dds](gfx/leaders/KOR/Portrait_KOR_Eun_Lee_general.dds) |
+| 장군 소형 | `GFX_Portrait_KOR_Eun_Lee_general_small` | [idea_KOR_Eun_Lee_general.dds](gfx/interface/ideas/idea_KOR_Eun_Lee_general.dds) |
+
+본체 `cdc022e`의 이은(`KOR_Eun_Lee`) 연결과 같은 경로를 사용합니다. 대형 두 장은 156×210, 소형은 65×67 비압축 32비트 DDS입니다. 장군 소형은 모자를 벗은 마코토 그림을 사용하며 원본의 종이, 그림자, 알파를 보존했습니다. 두 대형 DDS의 파일 해시와 실제 크기의 미리보기를 대조했습니다. 게임 내 표시는 미검증입니다.
+
 개발 작업 위치와 검증 범위는 [AGENTS.md](AGENTS.md)를 참고하세요.
