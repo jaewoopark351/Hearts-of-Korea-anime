@@ -64,15 +64,15 @@ Hearts of Iron IV의 **하츠 오브 코리아**에 애니메이션풍 초상과
 
 ### 대한제국 분기 중점 아이콘
 
-2026-11-12에 본체와 서브모드의 기존 문장을 참고해 세 장을 OpenAI ImageGen으로 다시 그렸습니다. 화해 아이콘은 왼쪽부터 린·나기사·노도카를 배치했습니다. 린의 복장과 얼굴은 [공식 소개](https://x.com/Blue_ArchiveJP/status/1356074850909999105)를 참고했고, 나기사와 노도카는 위에 기록한 공식 소개 그림을 참고했습니다. 계연수 두 장은 [유우카 공식 소개](https://x.com/Blue_ArchiveJP/status/1353175798992179200)와 [서브모드의 기존 계연수 초상](gfx/leaders/KOR/Portrait_KOR_Yeonsu_Gye.dds)을 참고했습니다. 기존 수녀 차림 그림의 개별 제작 출처는 미확인입니다.
+2026-11-12에 본체와 서브모드의 기존 문장을 참고해 세 장을 OpenAI ImageGen으로 다시 그렸습니다. 화해 아이콘은 왼쪽부터 린·나기사·노도카를 배치했습니다. 린의 복장과 얼굴은 [공식 소개](https://x.com/Blue_ArchiveJP/status/1356074850909999105)를 참고했고, 나기사와 노도카는 위에 기록한 공식 소개 그림을 참고했습니다. 계연수 중점 두 장의 첫 제작에는 [유우카 공식 소개](https://x.com/Blue_ArchiveJP/status/1353175798992179200)와 [교체 전 계연수 초상](https://github.com/jaewoopark351/Hearts-of-Korea-anime/blob/237728a5b45ee3e2942aa027019b60e4d8b9362d/gfx/leaders/KOR/Portrait_KOR_Yeonsu_Gye.dds)을 참고했습니다. 기존 수녀 차림 그림의 개별 제작 출처는 미확인입니다.
 
 | 중점 | 아이콘 | 장면 |
 | --- | --- | --- |
 | 공화주의자들과의 화해 (`KOR_nomination_prime_minister`) | [focus_kor_nomination_prime_minister.dds](gfx/interface/goals/focus_kor_nomination_prime_minister.dds) | 파란 원형 문장 속 안창호(린), 김구(나기사), 여운형(노도카) |
-| 제국섭정 계연수 (`KOR_imperial_regent_gyeyeonsu`) | [focus_kor_imperial_regent_gyeyeonsu.dds](gfx/interface/goals/focus_kor_imperial_regent_gyeyeonsu.dds) | 월계관 속 수녀 차림 유우카 |
-| 계연수 축출 (`KOR_oppose_gyeyeonsu`) | [focus_kor_oppose_gyeyeonsu.dds](gfx/interface/goals/focus_kor_oppose_gyeyeonsu.dds) | 보라색 문장과 교차한 칼 장식 위로 보이는 수녀 차림 유우카 |
+| 제국섭정 계연수 (`KOR_imperial_regent_gyeyeonsu`) | [focus_kor_imperial_regent_gyeyeonsu.dds](gfx/interface/goals/focus_kor_imperial_regent_gyeyeonsu.dds) | 열린 월계관 속 시스터후드 복장의 사쿠라코 |
+| 계연수 축출 (`KOR_oppose_gyeyeonsu`) | [focus_kor_oppose_gyeyeonsu.dds](gfx/interface/goals/focus_kor_oppose_gyeyeonsu.dds) | 보라색 문장과 교차한 칼 장식 위로 보이는 사쿠라코 |
 
-축출 아이콘은 후속 편집에서 베일 바깥으로 나온 옆머리를 정리했습니다.
+유우카가 들어갔던 축출 아이콘은 당시 후속 편집에서 베일 바깥으로 나온 옆머리를 정리했습니다. 두 계연수 중점의 인물은 이후 OpenAI ImageGen으로 다시 그려, 아래 계연수 대형 초상과 같은 시스터후드 복장의 사쿠라코로 교체했습니다.
 
 세 장 모두 100×88 비압축 32비트 DDS이며, 본체의 기존 경로를 사용합니다. 기본 그림과 광택 마스크의 연결 및 실제 크기의 DDS 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
 
@@ -106,5 +106,17 @@ Hearts of Iron IV의 **하츠 오브 코리아**에 애니메이션풍 초상과
 | 장군 소형 | `GFX_Portrait_KOR_Eun_Lee_general_small` | [idea_KOR_Eun_Lee_general.dds](gfx/interface/ideas/idea_KOR_Eun_Lee_general.dds) |
 
 본체 `cdc022e`의 이은(`KOR_Eun_Lee`) 연결과 같은 경로를 사용합니다. 대형 두 장은 156×210, 소형은 65×67 비압축 32비트 DDS입니다. 장군 소형은 모자를 벗은 마코토 그림을 사용하며 원본의 종이, 그림자, 알파를 보존했습니다. 두 대형 DDS의 파일 해시와 실제 크기의 미리보기를 대조했습니다. 게임 내 표시는 미검증입니다.
+
+### 계연수·염동진·박승직 초상
+
+2026-11-12에 세 초상을 OpenAI ImageGen으로 다시 그렸습니다. 사쿠라코는 시스터후드 기본 복장, 토키는 SMILE BASE CAFE의 공식 협업 「Autumn Code」 가을 사복을 참고했습니다. 히로미는 와일드헌트 사감대 복장의 게임 스크린샷을 참고했습니다. 이전 초상의 개별 제작 출처는 미확인입니다.
+
+| 인물 | 캐릭터 | 교체 파일 | 디자인 참고 |
+| --- | --- | --- | --- |
+| 계연수 (`KOR_Yeonsu_Gye`) | 우타즈미 사쿠라코 | [대형](gfx/leaders/KOR/Portrait_KOR_Yeonsu_Gye.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1622792666521157637) |
+| 염동진 (`KOR_Dongjin_Yeom`) | 아스마 토키(사복) | [소형](gfx/interface/ideas/idea_KOR_Dongjin_Yeom.dds) | [공식 협업](https://smilebase.co.jp/10210/) |
+| 박승직 (`KOR_Seungjik_Park`) | 와일드헌트 히로미 | [소형](gfx/interface/ideas/idea_KOR_Seungjik_Park.dds) | [게임 스크린샷](https://pomzero.hatenablog.com/entry/2025/08/23/200211) |
+
+본체 `cdc022e`에 연결된 기존 경로를 사용합니다. 계연수 대형은 156×210, 염동진과 박승직 소형은 65×67 비압축 32비트 DDS입니다. 계연수 대형은 시민 영향력 창에서 공유하며, 염동진과 박승직 소형은 정치고문 화면에서 사용합니다. 소형의 종이, 그림자, 투명 영역을 보존했습니다. 스프라이트 연결, DDS 형식과 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
 
 개발 작업 위치와 검증 범위는 [AGENTS.md](AGENTS.md)를 참고하세요.
