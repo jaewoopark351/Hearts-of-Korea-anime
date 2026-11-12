@@ -194,4 +194,10 @@ Blender에서 내보낸 메시를 다시 열고 원본 뼈 33개와 기존 대�
 
 신규 모집 초상은 본체 `f1282d7` 기반 작업 트리의 한국 전용 남녀 슬롯과 스프라이트를 같은 상대 경로로 사용합니다. 모집 이름과 성별은 본체 슬롯을 따릅니다. 윤봉길은 고정 첩보원용 `GFX_portrait_bonggil_yoon`에 연결됩니다. 아홉 장 모두 156×210 불투명 BGRA32 DDS입니다. 파일 연결과 규격, 원본 및 모집 목록 크기 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
 
+### 한국 신규 육군 장군·사단장 초상 8번
+
+2026-11-13에 한국 육군의 무작위 초상 8번을 시이나 츠무기로 교체했습니다. OpenAI ImageGen으로 와일드헌트 교복, 머리띠, 헤일로를 참고해 대형을 그렸습니다. [《블루 아카이브》 공식 소개 이미지](https://blue-utils.me/static/img/intro/JP/ja/tsumugi.jpg) · [공식 모집 공지](https://bluearchive.jp/news/newsJump/696)
+
+본체 `065b555`의 `GFX_Portrait_Korea_Generic_land_8`과 `GFX_Portrait_Korea_Generic_land_8_small`이 참조하는 기존 파일을 교체했습니다. 대형은 기존 156×210 BGRA32 DDS와 알파를 유지했습니다. 소형은 같은 그림을 기존 사진 영역에 넣고 종이·그림자·투명 외곽을 보존해 본체와 같은 65×67 BGRA32 DDS로 저장했습니다. 두 파일의 연결, DDS 규격과 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다. [대형](gfx/leaders/KOR/Portrait_KOR_Generic_land_8.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_land_8.dds)
+
 개발 작업 위치와 검증 범위는 [AGENTS.md](AGENTS.md)를 참고하세요.
