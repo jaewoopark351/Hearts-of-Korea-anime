@@ -119,4 +119,24 @@ Hearts of Iron IV의 **하츠 오브 코리아**에 애니메이션풍 초상과
 
 본체 `cdc022e`에 연결된 기존 경로를 사용합니다. 계연수 대형은 156×210, 염동진과 박승직 소형은 65×67 비압축 32비트 DDS입니다. 계연수 대형은 시민 영향력 창에서 공유하며, 염동진과 박승직 소형은 정치고문 화면에서 사용합니다. 소형의 종이, 그림자, 투명 영역을 보존했습니다. 스프라이트 연결, DDS 형식과 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
 
+### 한국 신규 모집 과학자와 김두봉 초상
+
+2026-11-12에 《블루 아카이브》의 캐릭터 자료를 참고해 OpenAI ImageGen으로 아홉 장을 그렸습니다. 과학자 초상은 본체 작업 트리 `cdc022e`에서 추가된 한국 전용 남녀 슬롯과 스프라이트에 같은 상대 경로로 연결합니다. 남성 슬롯에도 요청된 블루 아카이브 캐릭터 그림을 사용하므로 모집 인물의 이름과 성별은 본체 목록의 구분을 따릅니다.
+
+| 대상 | 캐릭터 | 교체 파일 | 디자인 참고 |
+| --- | --- | --- | --- |
+| female_01 | 아즈마 미라이 | [대형](gfx/leaders/scientists/HOK_KOR/portrait_HOK_KOR_scientist_female_01.dds) | [게임 스프라이트](https://bluearchive.wikiru.jp/?%E3%83%9F%E3%83%A9%E3%82%A4) |
+| female_02 | 시라이시 우타하 | [대형](gfx/leaders/scientists/HOK_KOR/portrait_HOK_KOR_scientist_female_02.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1352450997054914560) |
+| female_03 | 네코즈카 히비키 | [대형](gfx/leaders/scientists/HOK_KOR/portrait_HOK_KOR_scientist_female_03.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1352813334752497671) |
+| female_04 | 토요미 코토리(안경 벗음) | [대형](gfx/leaders/scientists/HOK_KOR/portrait_HOK_KOR_scientist_female_04.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1352088620920832001) · [안경을 벗은 얼굴](https://x.com/Blue_ArchiveJP/status/1698531591793090648) |
+| male_01 | 쿠로사키 코유키 | [대형](gfx/leaders/scientists/HOK_KOR/portrait_HOK_KOR_scientist_male_01.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1632214513197137920) |
+| male_02 | 코세키 우이 | [대형](gfx/leaders/scientists/HOK_KOR/portrait_HOK_KOR_scientist_male_02.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1495231862805262341) |
+| male_03 | 엔도 시미코 | [대형](gfx/leaders/scientists/HOK_KOR/portrait_HOK_KOR_scientist_male_03.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1347377530701967361) |
+| male_04 | 아라마키 야쿠모 | [대형](gfx/leaders/scientists/HOK_KOR/portrait_HOK_KOR_scientist_male_04.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1989891753294664178) |
+| 김두봉 (`KOR_Dubong_Kim`) | 미요시 타카네 | [소형](gfx/interface/ideas/idea_KOR_Dubong_Kim.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1989543975699845158) |
+
+후속 편집에서는 기존 투명 초상화 뒤에 OpenAI ImageGen으로 그린 학교별 배경을 합성했습니다. 미라이는 밀레니엄 유사과학부 연구실, 우타하·히비키·코토리는 밀레니엄 엔지니어부 작업실, 코유키는 밀레니엄 세미나실을 사용합니다. 우이·시미코는 트리니티 고서관, 야쿠모는 레드윈터 출판부 편집실을 사용합니다.
+
+과학자 8장은 156×210, 김두봉은 65×67 비압축 BGRA32 DDS입니다. 과학자 초상은 기존 인물의 위치와 불투명 영역의 색을 유지하고 반투명 윤곽을 배경에 합성했습니다. 김두봉 소형의 종이와 그림자, 알파는 기존 서브모드 자산에서 보존했습니다. 같은 상대 경로의 본체 연결과 최종 DDS 형식을 확인했습니다. 과학자 초상은 원본 크기와 명단의 약 0.4배 표시 크기로 확인했습니다. 애니 초상의 게임 내 표시는 미검증입니다.
+
 개발 작업 위치와 검증 범위는 [AGENTS.md](AGENTS.md)를 참고하세요.
