@@ -46,6 +46,22 @@ Hearts of Iron IV의 **하츠 오브 코리아**에 애니메이션풍 초상과
 
 삽화는 기존 경로를 사용합니다. 도쿄와 신징은 본체와 같은 비압축 32비트 DDS입니다. 네 삽화의 이벤트 연결과 DDS 형식을 확인했습니다. 게임 버전 `1.19.4.2.2da5`에서 신징의 표시를 확인했으며, 도쿄·베이핑·난징의 게임 내 표시는 미검증입니다.
 
+### 대선·쇼와 데모크라시·비전 1950·대한제국 사건 삽화
+
+2026-11-12에 OpenAI ImageGen으로 투표 삽화 두 장을 다시 그렸고, 기존 서브모드의 해안·야경·광장 구도를 바탕으로 세 장을 편집했습니다. 기존 삽화의 개별 원출처는 미확인입니다.
+
+| 사건 | 그림과 연결 | 장면 |
+| --- | --- | --- |
+| 1946년 제9대 대통령 선거 (`kor_events.71`) | [report_event_K004.dds](gfx/event_pictures/report_event_K004.dds) · `GFX_report_event_K004` | 여운형(모자를 벗은 노도카), 이강(드레스 하루카), 윤보선(사오리)의 후보 안내지 |
+| 쇼와 데모크라시 (`newsj.3`) | [newsj_event_003.dds](gfx/event_pictures/newsj_event_003.dds) · `GFX_newsj_event_003` | 카호·미모리·나구사·카에데의 투표판 |
+| 비전 1950 해군 완성 (`newsk.12`) | [newsk_event_008.dds](gfx/event_pictures/newsk_event_008.dds) · `GFX_newsk_event_008` | 기존 해안도로 앞의 함대와 갑판 위 오디세이아 학생들 |
+| 명동성당 즉위식 (`newsk.17`) | [newsk_event_015.dds](gfx/event_pictures/newsk_event_015.dds) · `GFX_newsk_event_015` | 기존 야경을 바탕으로 그린 마코토와 만마전 일행의 행렬 |
+| 은장도의 밤 (`newsk.26`) | [newsk_event_017.dds](gfx/event_pictures/newsk_event_017.dds) · `GFX_newsk_event_017` | 기존 광장을 밤으로 바꾸고 게헨나와 트리니티 모브들의 충돌을 그림. 후속 편집에서 양측 모브의 눈을 앞머리와 그림자로 가림 |
+
+대선 삽화는 서브모드의 노도카·하루카·사오리 초상에 맞췄습니다. 쇼와 삽화는 [카호](https://x.com/Blue_ArchiveJP/status/1643886488676077568), [미모리](https://x.com/Blue_ArchiveJP/status/1490521019236626435), [나구사](https://x.com/Blue_ArchiveJP/status/1924314158402830736), [카에데](https://x.com/Blue_ArchiveJP/status/1517337541346619394)의 공식 소개를 참고했습니다. 비전 1950은 서브모드에서 그린 미나토 초상, 명동성당은 이은 초상과 기존 경복궁 즉위식 삽화의 만마전 일행을 참고했습니다.
+
+대선은 210×176 투명 외곽을 유지한 비압축 BGRA32 DDS, 나머지는 397×153 비압축 BGRA32 DDS입니다. 본체 스프라이트의 경로, DDS 규격과 표시 크기 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
 ### 지도자 중점 아이콘
 
 2026-11-12에 기존 방패의 형태와 색을 참고해 중점 아이콘 네 장을 OpenAI ImageGen으로 다시 그렸습니다. 캐릭터의 머리, 복장, 장식은 《블루 아카이브》 일본 공식 소개 그림을 참고했습니다. 이전 아이콘의 개별 제작 출처는 미확인입니다.
