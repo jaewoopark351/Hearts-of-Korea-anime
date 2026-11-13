@@ -255,6 +255,8 @@ Blender에서 내보낸 메시를 다시 열고 원본 뼈 33개와 기존 대�
 
 같은 날 사용자가 첨부한 확대 구도를 바탕으로 OpenAI ImageGen에서 1086×1448 원본을 다시 그렸습니다. 대형은 얼굴이 더 크게 보이도록 배치하고 첨부와 같이 헤일로 윗부분을 화면 밖에 뒀습니다. 소형은 두 눈이 종이 틀에 가리지 않도록 얼굴 중심으로 잘랐습니다. 기존 DDS 규격과 알파, 소형 사진 영역 바깥 픽셀을 보존했습니다. 실제 크기의 미리보기를 확인했으며 게임 내 표시는 미검증입니다.
 
+소형은 대형의 고해상도 원본을 참고해 OpenAI ImageGen에서 인물과 하늘을 한 장면으로 다시 그렸습니다. 두 눈과 귀가 보이도록 구도를 잡고, 기존 그림의 색이 남아 있던 가장자리까지 새 그림을 합성했습니다. 65×67 BGRA32 DDS의 알파와 종이 틀을 보존했으며 실제 크기의 전후 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
 ### 조선임시인민위원회 초상
 
 2026-11-13에 기존 단체 초상의 인물을 OpenAI ImageGen으로 다시 그렸습니다. 노도카·토모에·체리노가 앞줄에 서고, 미노리·시구레·메루·모미지가 뒤에 섭니다. 마리나는 제외했습니다. 두 그림에 같은 인물을 배치하고 각 원본의 깃발 디자인과 배경을 살렸습니다. 기존 단체 그림의 개별 제작 출처는 미확인입니다. [노도카](https://blue-utils.me/static/img/intro/JP/ja/nodoka.jpg) · [토모에](https://blue-utils.me/static/img/intro/JP/ja/tomoe.jpg) · [체리노](https://blue-utils.me/static/img/intro/JP/ja/cherino.jpg) · [미노리](https://blue-utils.me/static/img/intro/JP/ja/minori.jpg) · [시구레](https://blue-utils.me/static/img/intro/JP/ja/shigure.jpg) · [메루](https://blue-utils.me/static/img/intro/JP/ja/meru.jpg) · [모미지](https://blue-utils.me/static/img/intro/JP/ja/momiji.jpg)
