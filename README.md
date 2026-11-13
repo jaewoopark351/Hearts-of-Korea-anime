@@ -200,4 +200,23 @@ Blender에서 내보낸 메시를 다시 열고 원본 뼈 33개와 기존 대�
 
 본체 `065b555`의 `GFX_Portrait_Korea_Generic_land_8`과 `GFX_Portrait_Korea_Generic_land_8_small`이 참조하는 기존 파일을 교체했습니다. 대형은 기존 156×210 BGRA32 DDS와 알파를 유지했습니다. 소형은 같은 그림을 기존 사진 영역에 넣고 종이·그림자·투명 외곽을 보존해 본체와 같은 65×67 BGRA32 DDS로 저장했습니다. 두 파일의 연결, DDS 규격과 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다. [대형](gfx/leaders/KOR/Portrait_KOR_Generic_land_8.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_land_8.dds)
 
+### 한국 육군·해군 무작위 초상
+
+2026-11-13에 아래 네 초상을 OpenAI ImageGen으로 새로 그렸습니다. 무츠키·나츠·미모리는 공식 복장을 참고했고, 주리는 처음에 짙은 보라색 드레스로 그렸고, 후속 요청에서 사용자가 첨부한 그림을 참고해 흰 새틴 드레스와 검은 목 리본, 별자리 헤일로, 야간 연회장 배경을 살린 상반신 초상으로 다시 그렸습니다. 이후 사용자가 첨부한 확대 구도를 참고해 얼굴과 뿔이 화면을 더 채우도록 대형을 다시 그렸으며, 소형에서도 눈이 보이도록 인물 위치를 조정했습니다. 첨부 그림의 개별 제작 출처는 미확인입니다. 이전 초상과 소형 종이의 개별 제작 출처는 미확인입니다.
+
+| 슬롯 | 캐릭터 | 교체 파일 | 디자인 참고 |
+| --- | --- | --- | --- |
+| 육군 2 | 아사기 무츠키(드레스) | [대형](gfx/leaders/KOR/Portrait_KOR_Generic_land_2.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_land_2.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/2058382817441235322) |
+| 육군 3 | 우시마키 주리(드레스) | [대형](gfx/leaders/KOR/Portrait_KOR_Generic_land_3.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_land_3.dds) | [기본 복장 공식 소개 이미지](https://blue-utils.me/static/img/intro/GL/en/juri.jpg) · 사용자 첨부 흰 드레스 그림 |
+| 육군 9 | 유토리 나츠(밴드) | [대형](gfx/leaders/KOR/Portrait_KOR_Generic_land_9.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_land_9.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1929010072388251739) |
+| 해군 3 | 미즈하 미모리(수영복) | [대형](gfx/leaders/KOR/Portrait_KOR_Generic_navy_3.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_navy_3.dds) | [공식 소개 이미지](https://blue-utils.me/static/img/intro/JP/ja/mimori_swimsuit.jpg) |
+
+본체 `065b555`의 무작위 초상 목록과 스프라이트가 참조하는 기존 파일을 교체했습니다. 육군 2번의 대형·소형은 고정 장군 최용건(`KOR_Yonggeon_Choe`)도 공유합니다. 대형은 기존 156×210 BGRA32와 알파를 유지했고, 소형은 종이·그림자·투명 외곽을 보존해 본체와 같은 65×67 BGRA32로 저장했습니다. 스프라이트 연결, DDS 규격과 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 조선임시인민위원회 초상
+
+2026-11-13에 기존 단체 초상의 인물을 OpenAI ImageGen으로 다시 그렸습니다. 노도카·토모에·체리노가 앞줄에 서고, 미노리·시구레·메루·모미지가 뒤에 섭니다. 마리나는 제외했습니다. 두 그림에 같은 인물을 배치하고 각 원본의 깃발 디자인과 배경을 살렸습니다. 기존 단체 그림의 개별 제작 출처는 미확인입니다. [노도카](https://blue-utils.me/static/img/intro/JP/ja/nodoka.jpg) · [토모에](https://blue-utils.me/static/img/intro/JP/ja/tomoe.jpg) · [체리노](https://blue-utils.me/static/img/intro/JP/ja/cherino.jpg) · [미노리](https://blue-utils.me/static/img/intro/JP/ja/minori.jpg) · [시구레](https://blue-utils.me/static/img/intro/JP/ja/shigure.jpg) · [메루](https://blue-utils.me/static/img/intro/JP/ja/meru.jpg) · [모미지](https://blue-utils.me/static/img/intro/JP/ja/momiji.jpg)
+
+본체 `065b555`에서 일반 초상은 `GFX_Portrait_KOR_provisional_peoples_committee`를 통해 지도자 화면과 시민 영향력 창에 표시됩니다. `_anarchist`의 호출처와 두 초상의 소형 파일 연결은 확인되지 않았습니다. 두 대형 DDS의 기존 156×210 BGRA32 규격과 알파를 보존했고, 실제 크기에서 인물과 깃발을 확인했습니다. 게임 내 표시는 미검증입니다. [일반 초상](gfx/leaders/KOR/Portrait_KOR_provisional_peoples_committee.dds) · [무정부주의 초상](gfx/leaders/KOR/Portrait_KOR_provisional_peoples_committee_anarchist.dds)
+
 개발 작업 위치와 검증 범위는 [AGENTS.md](AGENTS.md)를 참고하세요.
