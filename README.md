@@ -200,6 +200,8 @@ Blender에서 내보낸 메시를 다시 열고 원본 뼈 33개와 기존 대�
 
 본체 `065b555`의 `GFX_Portrait_Korea_Generic_land_8`과 `GFX_Portrait_Korea_Generic_land_8_small`이 참조하는 기존 파일을 교체했습니다. 대형은 기존 156×210 BGRA32 DDS와 알파를 유지했습니다. 소형은 같은 그림을 기존 사진 영역에 넣고 종이·그림자·투명 외곽을 보존해 본체와 같은 65×67 BGRA32 DDS로 저장했습니다. 두 파일의 연결, DDS 규격과 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다. [대형](gfx/leaders/KOR/Portrait_KOR_Generic_land_8.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_land_8.dds)
 
+같은 날 새 첨부 그림을 바탕으로 크림색 식물 문양 헤일로, 청색 눈과 모자·가슴의 방패 문양을 살려 OpenAI ImageGen에서 1086×1448 원본을 다시 그렸습니다. 새 첨부 그림의 제작자와 배포 허용 범위는 미확인입니다. 기존 대형·소형 경로에 적용하고 DDS 규격과 알파, 소형 종이 틀과 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
 ### 한국 육군·해군 무작위 초상
 
 2026-11-13에 아래 네 초상을 OpenAI ImageGen으로 새로 그렸습니다. 무츠키·나츠·미모리는 공식 복장을 참고했고, 주리는 처음에 짙은 보라색 드레스로 그렸고, 후속 요청에서 사용자가 첨부한 그림을 참고해 흰 새틴 드레스와 검은 목 리본, 별자리 헤일로, 야간 연회장 배경을 살린 상반신 초상으로 다시 그렸습니다. 이후 사용자가 첨부한 확대 구도를 참고해 얼굴과 뿔이 화면을 더 채우도록 대형을 다시 그렸으며, 소형에서도 눈이 보이도록 인물 위치를 조정했습니다. 첨부 그림의 개별 제작 출처는 미확인입니다. 이전 초상과 소형 종이의 개별 제작 출처는 미확인입니다.
@@ -207,11 +209,51 @@ Blender에서 내보낸 메시를 다시 열고 원본 뼈 33개와 기존 대�
 | 슬롯 | 캐릭터 | 교체 파일 | 디자인 참고 |
 | --- | --- | --- | --- |
 | 육군 2 | 아사기 무츠키(드레스) | [대형](gfx/leaders/KOR/Portrait_KOR_Generic_land_2.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_land_2.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/2058382817441235322) |
-| 육군 3 | 우시마키 주리(드레스) | [대형](gfx/leaders/KOR/Portrait_KOR_Generic_land_3.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_land_3.dds) | [기본 복장 공식 소개 이미지](https://blue-utils.me/static/img/intro/GL/en/juri.jpg) · 사용자 첨부 흰 드레스 그림 |
-| 육군 9 | 유토리 나츠(밴드) | [대형](gfx/leaders/KOR/Portrait_KOR_Generic_land_9.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_land_9.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1929010072388251739) |
+| 육군 3 (이전) | 우시마키 주리(드레스) | [대형](gfx/leaders/KOR/Portrait_KOR_Generic_land_3.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_land_3.dds) | [기본 복장 공식 소개 이미지](https://blue-utils.me/static/img/intro/GL/en/juri.jpg) · 사용자 첨부 흰 드레스 그림 |
+| 육군 9 (이전) | 유토리 나츠(밴드) | [대형](gfx/leaders/KOR/Portrait_KOR_Generic_land_9.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_land_9.dds) | [공식 소개](https://x.com/Blue_ArchiveJP/status/1929010072388251739) |
 | 해군 3 | 미즈하 미모리(수영복) | [대형](gfx/leaders/KOR/Portrait_KOR_Generic_navy_3.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_navy_3.dds) | [공식 소개 이미지](https://blue-utils.me/static/img/intro/JP/ja/mimori_swimsuit.jpg) |
 
 본체 `065b555`의 무작위 초상 목록과 스프라이트가 참조하는 기존 파일을 교체했습니다. 육군 2번의 대형·소형은 고정 장군 최용건(`KOR_Yonggeon_Choe`)도 공유합니다. 대형은 기존 156×210 BGRA32와 알파를 유지했고, 소형은 종이·그림자·투명 외곽을 보존해 본체와 같은 65×67 BGRA32로 저장했습니다. 스프라이트 연결, DDS 규격과 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 육군 무작위 초상 3번·홍범도 초상
+
+2026-11-13에 사용자가 첨부한 그림 두 장을 바탕으로 OpenAI ImageGen에서 1086×1448 초상 원본을 각각 다시 그렸습니다. 육군 무작위 초상 3번은 보라색 벚꽃 헤일로와 모자 챙을 잡는 자세를, 홍범도는 산호색 머리와 흰 리본, 금빛 고리 헤일로를 살렸습니다. 홍범도 그림은 세로 초상 규격에 맞게 배경을 양옆으로 넓혔습니다. 두 첨부 그림의 제작자와 배포 허용 범위는 미확인입니다.
+
+| 대상 | 본체 연결 | 교체 파일 |
+| --- | --- | --- |
+| 육군 무작위 초상 3번 | `portraits/00_portraits_KOR.txt`와 `interface/random_portraits_HoK.gfx`의 `GFX_Portrait_Korea_Generic_land_3` 및 `GFX_Portrait_Korea_Generic_land_3_small` | [대형](gfx/leaders/KOR/Portrait_KOR_Generic_land_3.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_land_3.dds) |
+| 홍범도 (`KOR_Beomdo_Hong`) | `common/characters/KOR.txt`와 `interface/characters_HoK.gfx`의 `GFX_Portrait_KOR_Beomdo_Hong` 및 `GFX_Portrait_KOR_Beomdo_Hong_small` | [대형](gfx/leaders/KOR/Portrait_KOR_Beomdo_Hong.dds) · [소형](gfx/interface/ideas/idea_KOR_Beomdo_Hong.dds) |
+
+본체 `065b555`의 스프라이트 경로와 대형 156×210, 소형 65×67 비압축 BGRA32 DDS 규격을 대조했습니다. 소형은 얼굴 중심으로 잘라 기존 종이 틀에 합성했습니다. DDS 헤더와 알파, 소형의 사진 영역 바깥 픽셀을 보존했고 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 육군 무작위 초상 9번·4번
+
+2026-11-13에 사용자가 첨부한 그림을 바탕으로 OpenAI ImageGen에서 1086×1448 초상 원본 두 장을 다시 그렸습니다. 9번은 분홍색 포니테일, 고리 헤일로와 모자 챙을 잡는 자세를 살렸습니다. 4번은 한쪽 눈을 가린 앞머리, 벚꽃 헤일로와 머리 장식, 옷깃을 잡는 자세를 살렸습니다. 첨부 그림의 제작자와 배포 허용 범위는 미확인입니다.
+
+| 대상 | 본체 스프라이트 | 교체 파일 |
+| --- | --- | --- |
+| 육군 무작위 초상 9번 | `GFX_Portrait_Korea_Generic_land_9` 및 `GFX_Portrait_Korea_Generic_land_9_small` | [대형](gfx/leaders/KOR/Portrait_KOR_Generic_land_9.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_land_9.dds) |
+| 육군 무작위 초상 4번·류경수 (`KOR_Gyeongsu_Ryu`) | `GFX_Portrait_Korea_Generic_land_4` 및 `GFX_Portrait_Korea_Generic_land_4_small` | [대형](gfx/leaders/KOR/Portrait_KOR_Generic_land_4.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_land_4.dds) |
+
+본체 `065b555`의 `portraits/00_portraits_KOR.txt`, `interface/random_portraits_HoK.gfx`, 류경수가 정의된 `common/characters/KOR.txt`를 대조했습니다. 대형은 156×210, 소형은 65×67 비압축 BGRA32 DDS입니다. 4번 소형은 기존 DXT1에서 본체의 BGRA32 규격으로 맞췄습니다. 소형은 얼굴 중심으로 잘라 종이 틀에 합성했습니다. 네 파일의 기존 알파와 소형 사진 영역 바깥 픽셀을 보존했고 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+같은 날 새 첨부 그림을 바탕으로 OpenAI ImageGen에서 9번과 4번의 1086×1448 원본을 각각 다시 그렸습니다. 9번은 모자·넥타이·완장에 금색 세 고리 문양을, 4번은 모자와 가슴 방패에 금색 `百鬼夜行` 글자를 넣었습니다. 새 첨부 그림의 제작자와 배포 허용 범위는 미확인입니다. 두 초상의 기존 대형·소형 경로에 적용했고 DDS 헤더와 알파, 소형의 종이 틀을 보존했습니다. 새 원본의 문양과 글자, 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 육군 무작위 초상 5번
+
+2026-11-13에 사용자가 첨부한 그림을 바탕으로 OpenAI ImageGen에서 1086×1448 원본을 다시 그렸습니다. 금발 땋은 머리와 목에 건 헤드폰, 보라색 헤일로와 모자 챙을 잡는 자세를 살렸습니다. 첨부 그림의 제작자와 배포 허용 범위는 미확인입니다. [대형](gfx/leaders/KOR/Portrait_KOR_Generic_land_5.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_land_5.dds)
+
+본체 `065b555`의 무작위 육군 초상에 `GFX_Portrait_Korea_Generic_land_5`가 연결됩니다. 군사 이론가 신태영(`KOR_Taeyeong_Shin`)도 `GFX_Portrait_Korea_Generic_land_5_small`을 사용합니다. 대형은 156×210, 소형은 65×67 BGRA32 DDS입니다. 소형은 얼굴 중심으로 잘라 종이 틀에 합성하고, DXT1에서 본체와 같은 BGRA32로 저장했습니다. 두 파일의 기존 알파와 소형 사진 영역 바깥 픽셀을 보존했고 연결과 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 해군 무작위 초상 2번
+
+2026-11-13에 사용자가 첨부한 그림을 바탕으로 OpenAI ImageGen에서 1086×1448 원본을 다시 그렸습니다. 짙은 남색 머리, 연두색 눈, 꽃무늬 수영복과 여름 하늘을 살렸습니다. 후속 수정에서 스노하라 슌(수영복)의 공식 소개 이미지를 참고해 헤일로를 다시 그렸습니다. 청록색과 연보라색이 이어지는 네 꽃잎 윤곽과 안쪽 마름모를 살리고, 위쪽 꽃잎이 잘리지 않도록 구도를 맞췄습니다. 첨부 그림의 제작자와 배포 허용 범위는 미확인입니다. [대형](gfx/leaders/KOR/Portrait_KOR_Generic_navy_2.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_navy_2.dds) · [스노하라 슌(수영복) 공식 소개](https://x.com/Blue_ArchiveJP/status/2068544525019357433)
+
+본체 `065b555`의 무작위 해군 초상 목록은 `GFX_Portrait_Korea_Generic_navy_2`를 사용합니다. 대응 소형 `GFX_Portrait_Korea_Generic_navy_2_small`은 해군 이론가 박옥규(`KOR_Okgyu_Park`)와 정긍모(`KOR_Geungmo_Jeong`)의 정의에도 연결됩니다. 정긍모의 고문 역할은 본체에서 주석 처리돼 있습니다.
+
+대형은 156×210, 소형은 65×67 BGRA32 DDS입니다. 소형은 얼굴을 중심으로 기존 종이 틀에 합성하고 DXT1에서 본체와 같은 BGRA32로 저장했습니다. 기존 알파와 사진 영역 바깥 픽셀을 보존했고 본체 연결과 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+같은 날 사용자가 첨부한 확대 구도를 바탕으로 OpenAI ImageGen에서 1086×1448 원본을 다시 그렸습니다. 대형은 얼굴이 더 크게 보이도록 배치하고 첨부와 같이 헤일로 윗부분을 화면 밖에 뒀습니다. 소형은 두 눈이 종이 틀에 가리지 않도록 얼굴 중심으로 잘랐습니다. 기존 DDS 규격과 알파, 소형 사진 영역 바깥 픽셀을 보존했습니다. 실제 크기의 미리보기를 확인했으며 게임 내 표시는 미검증입니다.
 
 ### 조선임시인민위원회 초상
 
