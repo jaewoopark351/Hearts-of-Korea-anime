@@ -215,6 +215,10 @@ Blender에서 내보낸 메시를 다시 열고 원본 뼈 33개와 기존 대�
 
 본체 `065b555`의 무작위 초상 목록과 스프라이트가 참조하는 기존 파일을 교체했습니다. 육군 2번의 대형·소형은 고정 장군 최용건(`KOR_Yonggeon_Choe`)도 공유합니다. 대형은 기존 156×210 BGRA32와 알파를 유지했고, 소형은 종이·그림자·투명 외곽을 보존해 본체와 같은 65×67 BGRA32로 저장했습니다. 스프라이트 연결, DDS 규격과 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
 
+2026-11-13에 육군 7번에 사용자가 첨부한 그림을 적용한 뒤, 같은 그림을 참고해 OpenAI ImageGen으로 1086×1448 원본을 다시 그려 대형·소형에 적용했습니다. 첨부 그림의 제작 출처는 미확인입니다. 본체 `065b555`에서 무작위 육군 장군과 남일(`KOR_Il_Nam`)이 이 초상을 사용하며, 최덕신을 지도자로 생성하는 결정도 대형을 공유합니다. 대형은 기존 156×210 BGRA32의 알파를 유지했고, 소형은 얼굴을 확대해 기존 종이 틀에 합성한 뒤 65×67 BGRA32로 저장했습니다. 연결 경로와 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다. [대형](gfx/leaders/KOR/Portrait_KOR_Generic_land_7.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_land_7.dds)
+
+2026-11-13에 사용자 첨부 그림의 제복과 트리니티 교표를 참고해 육군 6번 초상의 1086×1448 원본을 OpenAI ImageGen으로 새로 그렸습니다. 첨부 그림의 제작 출처는 미확인입니다. 본체 `065b555`의 무작위 육군 초상 목록에 연결된 대형과 대응 소형을 교체했습니다. 대형은 156×210, 소형은 65×67 BGRA32 DDS입니다. 소형은 얼굴을 확대하고 기존 종이 틀과 투명 외곽을 유지했습니다. 연결 경로와 실제 크기 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다. [대형](gfx/leaders/KOR/Portrait_KOR_Generic_land_6.dds) · [소형](gfx/interface/ideas/idea_KOR_generic_land_6.dds)
+
 ### 육군 무작위 초상 3번·홍범도 초상
 
 2026-11-13에 사용자가 첨부한 그림 두 장을 바탕으로 OpenAI ImageGen에서 1086×1448 초상 원본을 각각 다시 그렸습니다. 육군 무작위 초상 3번은 보라색 벚꽃 헤일로와 모자 챙을 잡는 자세를, 홍범도는 산호색 머리와 흰 리본, 금빛 고리 헤일로를 살렸습니다. 홍범도 그림은 세로 초상 규격에 맞게 배경을 양옆으로 넓혔습니다. 두 첨부 그림의 제작자와 배포 허용 범위는 미확인입니다.
@@ -266,5 +270,117 @@ Blender에서 내보낸 메시를 다시 열고 원본 뼈 33개와 기존 대�
 2026-11-13에 기존 단체 초상의 인물을 OpenAI ImageGen으로 다시 그렸습니다. 노도카·토모에·체리노가 앞줄에 서고, 미노리·시구레·메루·모미지가 뒤에 섭니다. 마리나는 제외했습니다. 두 그림에 같은 인물을 배치하고 각 원본의 깃발 디자인과 배경을 살렸습니다. 기존 단체 그림의 개별 제작 출처는 미확인입니다. [노도카](https://blue-utils.me/static/img/intro/JP/ja/nodoka.jpg) · [토모에](https://blue-utils.me/static/img/intro/JP/ja/tomoe.jpg) · [체리노](https://blue-utils.me/static/img/intro/JP/ja/cherino.jpg) · [미노리](https://blue-utils.me/static/img/intro/JP/ja/minori.jpg) · [시구레](https://blue-utils.me/static/img/intro/JP/ja/shigure.jpg) · [메루](https://blue-utils.me/static/img/intro/JP/ja/meru.jpg) · [모미지](https://blue-utils.me/static/img/intro/JP/ja/momiji.jpg)
 
 본체 `065b555`에서 일반 초상은 `GFX_Portrait_KOR_provisional_peoples_committee`를 통해 지도자 화면과 시민 영향력 창에 표시됩니다. `_anarchist`의 호출처와 두 초상의 소형 파일 연결은 확인되지 않았습니다. 두 대형 DDS의 기존 156×210 BGRA32 규격과 알파를 보존했고, 실제 크기에서 인물과 깃발을 확인했습니다. 게임 내 표시는 미검증입니다. [일반 초상](gfx/leaders/KOR/Portrait_KOR_provisional_peoples_committee.dds) · [무정부주의 초상](gfx/leaders/KOR/Portrait_KOR_provisional_peoples_committee_anarchist.dds)
+
+### 일본 백귀야행 초상
+
+2026-11-13에 일본 인물 여섯 명과 일본 민족해방위원회의 초상을 OpenAI ImageGen으로 그렸습니다. 《블루 아카이브》 일본 공식 소개 카드의 얼굴, 머리, 헤일로를 참고하고, 개인 초상에는 기존 육군·해군 역할에 맞춘 제복을 입혔습니다. 위원회는 원래 회의실과 일장기, 서류가 놓인 탁자 구도에 백귀야행 학생들을 배치했습니다. 소개 카드는 디자인 참고용이며 기존 개별 초상의 제작자는 미확인입니다. 무타구치 렌야와 후세 다쓰지는 교체 대상에서 제외했습니다.
+
+| 대상 | 캐릭터 | 교체 파일 | 디자인 참고 |
+| --- | --- | --- | --- |
+| 기무라 마사토미 | 미즈하 미모리 | [대형](gfx/leaders/JAP/Portrait_Japan_Masatomi_Kimura.dds) · [소형](gfx/interface/ideas/idea_Japan_Masatomi_Kimura.dds) | [미모리](https://blue-utils.me/static/img/intro/JP/ja/mimori.jpg) |
+| 요나이 미쓰마사 | 쿠와카미 카호 | [본체 대형](gfx/leaders/JAP/Portrait_Japan_Mitsumasa_Yonai.dds) · [본체 소형](gfx/interface/ideas/idea_Japan_Mitsumasa_Yonai.dds) · [바닐라 대형](gfx/leaders/JAP/portrait_JAP_mitsumasa_yonai.dds) · [군직 소형](gfx/interface/ideas/portrait_JAP_mitsumasa_yonai_military_small.dds) · [민간 소형](gfx/interface/ideas/portrait_JAP_mitsumasa_yonai_civilian_small.dds) · [수감 소형](gfx/interface/ideas/portrait_JAP_mitsumasa_yonai_civilian_imprisoned.dds) | [카호](https://blue-utils.me/static/img/intro/JP/ja/kaho.jpg) |
+| 요시다 신 | 후와 렌게 | [대형](gfx/leaders/JAP/Portrait_Japan_Shin_Yoshida.dds) · [소형](gfx/interface/ideas/idea_Japan_Shin_Yoshida.dds) | [렌게](https://blue-utils.me/static/img/intro/JP/ja/renge.jpg) |
+| 미야자키 시게사부로 | 키류 키쿄 | [대형](gfx/leaders/JAP/Portrait_Japan_Sigesaburo_miyazaki.dds) · [소형](gfx/interface/ideas/idea_Japan_Sigesaburo_miyazaki.dds) | [키쿄](https://blue-utils.me/static/img/intro/JP/ja/kikyou.jpg) |
+| 구리바야시 다다미치 | 고료 나구사 | [대형](gfx/leaders/JAP/Portrait_Japan_Tadamichi_kuribayashi.dds) · [소형](gfx/interface/ideas/idea_Japan_Tadamichi_kuribayashi.dds) | [나구사](https://blue-utils.me/static/img/intro/JP/ja/nagusa.jpg) |
+| 야마구치 다몬 | 아마치 니야 | [기존 대형](gfx/leaders/JAP/Portrait_Japan_Tamon_Yamaguchi.dds) · [바닐라 대형](gfx/leaders/JAP/portrait_JAP_tamon_yamaguchi.dds) · [소형](gfx/interface/ideas/portrait_JAP_tamon_yamaguchi_small.dds) | [니야](https://blue-utils.me/static/img/intro/JP/ja/niya.jpg) |
+| 일본 민족해방위원회 | 백귀야행 단체 | [대형](gfx/leaders/JAP/portrait_Japan_jnlc.dds) | 위 개인 소개 카드와 [카에데](https://blue-utils.me/static/img/intro/JP/ja/kaede.jpg) · [치세](https://blue-utils.me/static/img/intro/JP/ja/chise.jpg) · [유카리](https://blue-utils.me/static/img/intro/JP/ja/yukari.jpg) · [시즈코](https://blue-utils.me/static/img/intro/JP/ja/shizuko.jpg) |
+
+본체 `065b555`의 일본 민주 분기 캐릭터와 `interface/characters_HoK.gfx`를 기준으로 대조했습니다. 위원회에는 대형만 연결됩니다. 야마구치의 기존 대형과 요나이의 본체 해군용 스프라이트에는 현재 호출이 확인되지 않았습니다. 두 인물은 바닐라 `common/characters/JAP.txt`가 가리키는 대형·소형에도 같은 그림을 넣었습니다. 요나이 수감 소형은 본체 `common/decisions/JAP.txt`의 호출과 No Compromise, No Surrender의 스프라이트를 따릅니다.
+
+대형 156×210, 소형 65×67 BGRA32 DDS의 헤더와 알파를 유지했습니다. 소형은 사진 영역에만 같은 그림을 합성해 종이·그림자·투명 외곽과 수감 철창을 보존했습니다. 경로, DDS 규격과 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 이범석 초상
+
+2026-11-13에 사용자가 첨부한 쿠로다테 하루나 그림을 이범석(`KOR_Beomseok_Lee`)의 초상으로 적용한 뒤, 같은 그림을 참고해 OpenAI ImageGen으로 1086×1448 원본을 다시 그려 대형·소형에 적용했습니다. 첨부 그림의 제작 출처는 미확인입니다. 본체 `065b555`에서 민간 지도자와 육군 지휘관이 같은 대형을 사용하고, 육군 지휘관에는 소형도 연결됩니다. [대형](gfx/leaders/KOR/Portrait_KOR_Beomseok_Lee.dds) · [소형](gfx/interface/ideas/idea_KOR_beomseok_lee.dds)
+
+대형은 상반신 구도를 156×210 BGRA32 DDS로 맞췄습니다. 소형은 얼굴을 더 크게 잘라 기존 종이 틀에 합성하고, 본체와 같은 65×67 BGRA32 DDS로 저장했습니다. 기존 소형의 사진 영역 바깥 픽셀과 알파를 보존했습니다. 연결 경로, DDS 규격과 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 김책 전용 초상
+
+2026-11-13에 사용자 첨부 그림을 김책 전용 초상으로 적용한 뒤, 같은 그림을 참고해 OpenAI ImageGen으로 1086×1448 원본을 다시 그려 대형·소형에 적용했습니다. 첨부 그림의 제작 출처는 미확인입니다. 대형은 156×210, 소형은 65×67 BGRA32 DDS입니다. 소형은 얼굴을 확대하고 기존 종이 틀과 알파를 유지했습니다. [대형](gfx/leaders/KOR/Portrait_KOR_Chaek_Kim.dds) · [소형](gfx/interface/ideas/idea_KOR_Chaek_Kim.dds)
+
+본체 `065b555`에서 `KOR_Chaek_Kim`은 육군 공용 `GFX_Portrait_Korea_Generic_land_1`과 `GFX_Portrait_Korea_Generic_land_1_small`을 사용합니다. 공용 대형은 무작위 육군 초상 목록에도 있습니다. 위 전용 파일에는 현재 본체 호출이 확인되지 않았습니다. DDS 규격과 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 홍사익 초상
+
+2026-11-13에 사용자가 첨부한 그림의 검은 드레스, 붉은 헤일로, 인사하는 자세를 참고해 OpenAI ImageGen으로 1086×1448 원본을 새로 그렸습니다. 첨부 그림의 제작 출처는 미확인입니다. 본체 `065b555`에서 육군 지휘관 홍사익(`KOR_Saik_Hong`)이 대형과 소형을 사용합니다. [대형](gfx/leaders/KOR/Portrait_KOR_Saik_Hong.dds) · [소형](gfx/interface/ideas/idea_KOR_Saik_Hong.dds)
+
+같은 날 후속 요청에서 새 첨부 그림을 참고해 제복 차림으로 다시 그렸습니다. 검은 제복과 붉은 장식, 윙크와 손동작을 살렸고, 첨부 화면에 표시된 다운로드 버튼은 제거했습니다. 이후 OpenAI ImageGen으로 모자, 넥타이, 완장과 배경 깃발의 게헨나 문양을 트리니티 교표로 교체한 1086×1448 그림을 대형과 소형에 적용했습니다. 새 첨부 그림의 제작 출처는 미확인입니다. [트리니티 공식 교표](https://pbs.twimg.com/media/EqDSnHiVQAAsjMh.jpg)
+
+대형은 156×210, 소형은 65×67 BGRA32 DDS입니다. 소형은 얼굴을 확대해 기존 종이 틀에 합성했습니다. 종이 틀과 알파, 본체 연결 경로, 실제 크기 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 송호성 초상
+
+2026-11-13에 사용자가 첨부한 그림의 제복, 모자 챙을 잡는 자세와 연두색 월계관 헤일로를 참고해 OpenAI ImageGen으로 1086×1448 원본을 새로 그렸습니다. 첨부 그림의 제작 출처는 미확인입니다. 본체 `065b555`에서 육군 지휘관 송호성(`KOR_Hoseong_Song`)이 대형과 소형을 사용합니다. [대형](gfx/leaders/KOR/Portrait_KOR_Hoseong_Song.dds) · [소형](gfx/interface/ideas/idea_KOR_Hoseong_Song.dds)
+
+같은 날 모자, 넥타이, 완장과 배경 깃발의 게헨나 문양을 OpenAI ImageGen으로 트리니티 교표로 교체한 그림을 대형과 소형에 적용했습니다. [트리니티 공식 교표](https://pbs.twimg.com/media/EqDSnHiVQAAsjMh.jpg)
+
+대형은 156×210, 소형은 65×67 BGRA32 DDS입니다. 소형은 얼굴을 확대해 기존 종이 틀에 합성했습니다. DDS 헤더와 알파, 종이 틀, 본체 연결 경로와 실제 크기 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 김신 초상
+
+2026-11-13에 사용자가 첨부한 공군 제복, 경례 자세와 분홍색 헤일로를 참고해 OpenAI ImageGen으로 1086×1448 원본을 새로 그렸습니다. 첨부 그림의 제작 출처는 미확인입니다. 기존 대형과 소형을 교체했습니다. [대형](gfx/leaders/KOR/Portrait_KOR_Sin_Kim.dds) · [소형](gfx/interface/ideas/idea_KOR_Sin_Kim.dds)
+
+본체 `065b555`에서 김신(`KOR_Sin_Kim`)의 항공전 이론가 화면은 `GFX_Portrait_KOR_Sin_Kim_small`을 사용합니다. 대형 DDS의 본체 호출은 확인되지 않았습니다. 대형은 156×210, 소형은 65×67 BGRA32 DDS이며 소형의 기존 종이와 투명 외곽을 보존했습니다. DDS 규격과 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 김석원 초상
+
+2026-11-13에 마지막으로 첨부된 금발 캐릭터의 제복과 붉은 헤일로를 참고해 OpenAI ImageGen으로 1086×1448 원본을 새로 그렸습니다. 첨부 그림의 제작 출처는 미확인입니다. 본체 `065b555`에서 육군 지휘관과 고위 지휘부에 등장하는 김석원(`KOR_Seokwon_Kim`)의 대형과 소형을 교체했습니다. [대형](gfx/leaders/KOR/Portrait_KOR_Seokwon_Kim.dds) · [소형](gfx/interface/ideas/idea_KOR_Seokwon_Kim.dds)
+
+대형은 156×210, 소형은 65×67 BGRA32 DDS입니다. 소형은 얼굴을 확대해 기존 종이 틀에 합성했습니다. 기존 알파와 사진 영역 바깥 픽셀을 보존했고, 본체 연결과 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 오광선·이응준 초상
+
+2026-11-13에 사용자가 첨부한 그림을 참고해 오광선과 이응준의 초상 원본을 OpenAI ImageGen으로 각각 1086×1448로 새로 그렸습니다. 오광선은 짧은 남색 머리와 청록색 헤일로를, 이응준은 은발과 흰 토끼 귀, 파란 헤일로를 살렸습니다. 첨부 그림의 제작 출처는 미확인입니다.
+
+| 대상 | 교체 파일 |
+| --- | --- |
+| 오광선 (`KOR_Gwangseon_Oh`) | [대형](gfx/leaders/KOR/Portrait_KOR_Gwangseon_Oh.dds) · [소형](gfx/interface/ideas/idea_KOR_Gwangseon_Oh.dds) |
+| 이응준 (`KOR_Eungjun_Lee`) | [대형](gfx/leaders/KOR/Portrait_KOR_Eungjun_Lee.dds) · [소형](gfx/interface/ideas/idea_KOR_Eungjun_Lee.dds) |
+
+본체 `065b555`에서 두 인물의 육군 초상에 대형과 소형이 연결됩니다. 대형은 156×210, 소형은 65×67 BGRA32 DDS입니다. 소형은 얼굴을 확대해 기존 종이 틀에 합성했습니다. DDS 헤더와 알파, 소형 사진 영역 바깥 픽셀을 보존했고 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 김학규 초상
+
+2026-11-13에 사용자가 첨부한 그림을 참고해 OpenAI ImageGen으로 1086×1448 원본을 새로 그렸습니다. 주황빛 땋은 머리, 여우 귀, 금빛 헤일로와 제복 문장을 살렸습니다. 첨부 그림의 제작 출처는 미확인입니다. 본체 `065b555`에서 김학규(`KOR_Hakgyu_Kim`)의 육군 지휘관 초상에 연결된 두 파일을 교체했습니다. [대형](gfx/leaders/KOR/Portrait_KOR_Hakgyu_Kim.dds) · [소형](gfx/interface/ideas/idea_KOR_Hakgyu_Kim.dds)
+
+대형은 156×210, 소형은 65×67 BGRA32 DDS입니다. 소형은 얼굴 중심으로 잘라 기존 종이 틀에 합성했습니다. DDS 헤더와 알파, 소형 사진 영역 바깥 픽셀을 보존했고 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 이준식·박시창 초상
+
+2026-11-13에 사용자가 첨부한 그림을 참고해 OpenAI ImageGen으로 1086×1448 원본을 각각 새로 그렸습니다. 이준식은 붉은 꽃 모양 헤일로와 모자 장식을, 박시창은 한쪽 눈을 가리는 금발과 청록색 헤일로를 살렸습니다. 첨부 그림의 제작 출처는 미확인입니다.
+
+| 대상 | 교체 파일 |
+| --- | --- |
+| 이준식 (`KOR_Junsik_Lee`) | [대형](gfx/leaders/KOR/Portrait_KOR_Junsik_Lee.dds) · [소형](gfx/interface/ideas/idea_KOR_Junsik_Lee.dds) |
+| 박시창 (`KOR_Sichang_Park`) | [대형](gfx/leaders/KOR/Portrait_KOR_Sichang_Park.dds) · [소형](gfx/interface/ideas/idea_KOR_Sichang_Park.dds) |
+
+본체 `065b555`의 육군 초상 연결을 확인했습니다. 대형은 156×210, 소형은 65×67 BGRA32 DDS입니다. 소형은 기존 종이 틀에 얼굴 중심으로 합성했습니다. DDS 헤더와 알파, 소형 사진 영역 바깥 픽셀을 보존했고 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 권준 초상
+
+2026-11-13에 사용자가 첨부한 그림을 참고해 OpenAI ImageGen으로 1086×1448 원본을 새로 그렸습니다. 은발, 색이 다른 두 눈, 검은 헤일로를 살렸습니다. 첨부 그림의 제작 출처는 미확인입니다. 본체 `065b555`에서 권준(`KOR_Jun_Gwon`)의 육군 지휘관 초상에 연결된 두 파일을 교체했습니다. [대형](gfx/leaders/KOR/Portrait_KOR_Jun_Gwon.dds) · [소형](gfx/interface/ideas/idea_KOR_Jun_Gwon.dds)
+
+대형은 156×210, 소형은 65×67 BGRA32 DDS입니다. 소형은 얼굴 중심으로 잘라 기존 종이 틀에 합성했습니다. DDS 헤더와 알파, 소형 사진 영역 바깥 픽셀을 보존했고 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 황근출 초상
+
+2026-11-13에 사용자가 첨부한 그림을 참고해 OpenAI ImageGen으로 1086×1448 원본을 새로 그렸습니다. 분홍색이 섞인 금발과 날개 달린 헤일로, 모자챙에 손을 댄 자세를 살렸습니다. 첨부 그림의 제작 출처는 미확인입니다. 본체 `065b555`에서 황근출(`KOR_Geunchul_Hwang`)의 지휘관 초상에 `Hyunjoon_Shin` 이름의 두 파일이 연결됩니다. [대형](gfx/leaders/KOR/Portrait_KOR_Hyunjoon_Shin.dds) · [소형](gfx/interface/ideas/idea_KOR_Hyunjoon_Shin.dds)
+
+대형은 156×210 BGRA32 DDS입니다. 소형은 65×67 DXT1을 본체와 같은 BGRA32로 변환하고 사진 영역에만 새 그림을 합성했습니다. 기존 종이 틀과 투명도, 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 김좌진 초상
+
+2026-11-13에 사용자가 첨부한 그림을 바탕으로 OpenAI ImageGen에서 1086×1448 초상 원본을 다시 그렸습니다. 보라색 양갈래 머리, 푸른 고리 헤일로, 모자 챙을 잡는 자세와 제복의 흰색 문양을 살렸습니다. 첨부 그림의 제작자와 배포 허용 범위는 미확인입니다. [대형](gfx/leaders/KOR/Portrait_KOR_Jwajin_Kim.dds) · [소형](gfx/interface/ideas/idea_KOR_Jwajin_Kim.dds)
+
+본체 `065b555`에서 김좌진(`KOR_Jwajin_Kim`)의 육군 초상은 `GFX_Portrait_KOR_Jwajin_Kim`과 `GFX_Portrait_KOR_Jwajin_Kim_small`을 사용합니다. 대형은 156×210, 소형은 65×67 BGRA32 DDS입니다. 소형은 두 눈이 보이도록 얼굴 중심으로 잘라 기존 종이 틀에 합성했습니다. DDS 헤더와 알파, 소형의 사진 영역 바깥 픽셀을 보존했고 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+### 안중근 초상
+
+2026-11-14에 사용자가 첨부한 그림을 바탕으로 OpenAI ImageGen에서 1086×1448 초상 원본을 다시 그렸습니다. 분홍색 머리와 뿔, 붉은 헤일로, 검정·적색 제복과 모자·소매의 문양을 살렸습니다. 첨부 그림의 제작자와 배포 허용 범위는 미확인입니다. [대형](gfx/leaders/KOR/Portrait_KOR_Junggeun_Ahn.dds) · [소형](gfx/interface/ideas/idea_KOR_Junggeun_Ahn.dds)
+
+본체 `065b555`에서 안중근(`KOR_Junggeun_Ahn`)의 육군 초상은 `GFX_Portrait_KOR_Junggeun_Ahn`과 `GFX_Portrait_KOR_Junggeun_Ahn_small`을 사용합니다. 대형은 156×210, 소형은 65×67 BGRA32 DDS입니다. 소형은 얼굴을 중심으로 잘라 기존 종이 틀에 합성했습니다. DDS 헤더와 알파, 소형의 사진 영역 바깥 픽셀을 보존했고 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
+
+같은 날 새 첨부 그림을 바탕으로 초록색 눈과 파란색 네 꼭짓점 별 세 개로 이루어진 헤일로를 살려 OpenAI ImageGen에서 1086×1448 원본을 다시 그렸습니다. 새 첨부 그림의 제작자와 배포 허용 범위는 미확인입니다. 두 DDS를 교체하면서 기존 알파와 소형 종이 틀을 보존했고 실제 크기의 미리보기를 확인했습니다. 게임 내 표시는 미검증입니다.
 
 개발 작업 위치와 검증 범위는 [AGENTS.md](AGENTS.md)를 참고하세요.
